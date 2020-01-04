@@ -5,7 +5,7 @@ metadtaa:
   labels:
     name: voting-app-pod
     app: demo-voting-app
-specs:
+spec:
   containers:
     - name: voting-app
       image: dockersamples/examplevotingapp_vote
