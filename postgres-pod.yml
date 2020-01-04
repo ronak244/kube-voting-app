@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
-metadtaa:
+metadata:
   name: postgres-app-pod
   labels:
     name: postgres-app-pod
     app: demo-voting-app
-specs:
+spec:
   containers:
     - name: postgres-app
       image: postgres:9.4
